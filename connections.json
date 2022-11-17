@@ -1,0 +1,18 @@
+GET /voyager/api/relationships/dash/connections?decorationId=com.linkedin.voyager.dash.deco.web.mynetwork.ConnectionListWithProfile-15&count=40&q=search&sortType=RECENTLY_ADDED&start=40 HTTP/2
+Host: www.linkedin.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:107.0) Gecko/20100101 Firefox/107.0
+Accept: application/vnd.linkedin.normalized+json+2.1
+Accept-Language: en-US,ru-RU;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+x-li-lang: en_US
+x-li-track: {"clientVersion":"1.11.3084","mpVersion":"1.11.3084","osName":"web","timezoneOffset":1,"timezone":"Europe/Warsaw","deviceFormFactor":"DESKTOP","mpName":"voyager-web","displayDensity":2,"displayWidth":3024,"displayHeight":1964}
+x-li-page-instance: urn:li:page:d_flagship3_people_connections;Z20Ab+2aQ+SNrlHfOjCvBQ==
+csrf-token: ajax:6996349091360836586
+x-restli-protocol-version: 2.0.0
+Connection: keep-alive
+Referer: https://www.linkedin.com/mynetwork/invite-connect/connections/
+Cookie: JSESSIONID="ajax:6996349091360836586"; bcookie="v=2&0b0fdbbe-c9cf-43ad-85fd-2ee8a3a821a2"; bscookie="v=1&20220711102453c5224c02-e329-42cf-8507-6dff1593d2f2AQF_O2A0AWtVx-xEsWwJDgMbjQscA57l"; li_gc=MTsyMTsxNjU3NTM1MDk2OzI7MDIxp5m1fGcu4+6qq6jPZ++j5rgy0kpKhjIYrS4yQOFmtk4=; li_alerts=e30=; G_ENABLED_IDPS=google; li_rm=AQE7Wf4ZpqOf9AAAAYHs4QWhGihk4A939uoM5DkhImlyhrnxqCQ6aKIJ10Xp1ZFQrGW3xJLVORJh5ZGk1UZtZ-a_tJjxX6iQoGwp7fwOzMFm7SwX4830TAnh; li_mc=MTsyMTsxNjY3MTM3NDIwOzI7MDIx1ypwrqFlbP0UGCPX7KVZ9VdIklPhEzWlz6lklfJIIQU=; li_theme=light; li_theme_set=app; __ssid=0706776c-885c-4c55-a91a-f7c0365dea5b; dfpfpt=47c7a5a0c1f04d649a8a2ca9b710e67b; li_at=AQEDATOSce8BCRQDAAABgxoJYlEAAAGEN6S6BE0AbLS_NqGhTn9kypUw2mQpIGI3o6kk5avETt4EPfIiNQbI2p_twfOEWOAR3Skcy70uXIVShwynEzInYqDTjbpaSJNGoGvp8UcxhwZCJyajGtQ-xT43; liap=true; AMCV_14215E3D5995C57C0A495C55%40AdobeOrg=-637568504%7CMCIDTS%7C19296%7CMCMID%7C43542439880050406971767348810279906619%7CMCAAMLH-1667741002%7C6%7CMCAAMB-1667741002%7C6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y%7CMCOPTOUT-1667143402s%7CNONE%7CMCCIDH%7C-1504962754%7CvVersion%7C5.1.1; aam_uuid=43691413593009197941750155732512382704; _gcl_au=1.1.1151220795.1662646876; timezone=Europe/Warsaw; fid=AQGSWL7YUp3PHAAAAYQKQF2zMPWQQhpZ6AQSJA67_z59I1aAKGzqVUPlu4RCHruCbBjQEMkKsZVtWw; lang=v=2&lang=en-us; lidc="b=VB39:s=V:r=V:a=V:p=V:g=3591:u=497:x=1:i=1667136198:t=1667222550:v=2:sig=AQGoT9wts2Xka8eO4vWTMst1By17NN_B"; AMCVS_14215E3D5995C57C0A495C55%40AdobeOrg=1
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+TE: trailers
