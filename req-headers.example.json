@@ -1,0 +1,17 @@
+{
+    "Accept": "application/vnd.linkedin.normalized+json+2.1",
+    "Accept-Language": "en-US,ru-RU;q=0.7,en;q=0.3",
+    "Accept-Encoding": "gzip, deflate, br",
+    "x-li-lang": "en_US",
+    "x-restli-protocol-version": "2.0.0",
+    "Origin": "https://www.linkedin.com",
+    "Connection": "keep-alive",
+    "Referer": "https://www.linkedin.com/search/results/people/?keywords=recruiter&network=%5B%22S%22%5D&origin=FACETED_SEARCH&page=4&sid=%3BiC",
+    "csrf-token": "CSRF TOKEN GOES HERE",
+    "Cookie": "COOKIES GO HERE",
+    "Sec-Fetch-Dest": "empty",
+    "Sec-Fetch-Mode": "cors",
+    "Sec-Fetch-Site": "same-origin",
+    "TE": "trailers"
+  }
+  
