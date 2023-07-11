@@ -8,7 +8,7 @@ prompt.start();
 
 const [_, __, day] = process.argv;
 
-const START = 430;
+const START = 0;
 const COUNT = 30;
 const START_DAY = Number(day);
 
@@ -24,7 +24,7 @@ const options = {
     origin: "FACETED_SEARCH",
     q: "all",
     query:
-      "(keywords:recruiter,flagshipSearchIntent:SEARCH_SRP,queryParameters:(network:List(S),resultType:List(PEOPLE)),includeFiltersInResponse:false)",
+      "(keywords:acquisition,flagshipSearchIntent:SEARCH_SRP,queryParameters:(network:List(S),resultType:List(PEOPLE)),includeFiltersInResponse:false)",
     start: START + (START_DAY * COUNT),
     count: COUNT,
   },
