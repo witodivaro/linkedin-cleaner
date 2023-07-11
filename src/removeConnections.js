@@ -51,17 +51,15 @@ const fetchConnections = async () => {
       params: options.getConnections,
     });
 
-    console.log(res.data.elements[0]);
-
-    const members = res.data.elements.map(
-      ({ connectedMemberResolutionResult, entityUrn }) => ({
+    const members = res.data.included.map(
+      ({ lastName, headline, firstName, entityUrn }) => ({
         name:
-          connectedMemberResolutionResult?.firstName +
+          firstName +
           " " +
-          connectedMemberResolutionResult?.lastName,
-        entityUrn: connectedMemberResolutionResult?.entityUrn,
+          lastName,
+        entityUrn,
         connectionUrn: entityUrn,
-        headline: connectedMemberResolutionResult?.headline,
+        headline,
       })
     );
 

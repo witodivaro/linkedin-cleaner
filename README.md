@@ -13,3 +13,9 @@ There are 2 types of scripts you can find: to *add* and to *remove* connections.
    5. Copypaste `csrf-token` header value into `req-headers.json` 
 3. Go to `index.js` and uncomment the script you want to use
 4. Run `node index.js`
+
+## Issues
+
+1. Responds with `Bad Request 400` on remove connection request
+   <br>
+   Probably there is an issue with which `entityUrn` code uses to remove the connection. It's required to research the removal request on LinkedIn and compare it to the data the code sends.
