@@ -24,12 +24,8 @@ const options = {
 };
 
 const linkedinFetcher = axios.create({
-  baseURL: "https://linkedin.com",
-  headers: {
-    Cookie:
-      'JSESSIONID="YOUR_COOKIE"',
-    "csrf-token": "YOUR_CSRF_TOKEN",
-  },
+  baseURL: 'https://linkedin.com',
+  headers,
 });
 
 const removeConnection = async (entityUrn) => {
@@ -75,11 +71,11 @@ const fetchConnections = async () => {
   }
 };
 
-const filterRemove = async () => {
+const filterRemove = async (keywords) => {
   const members = await fetchConnections();
 
   const trashCons = members.filter((member) =>
-    filterByHeadline(member.headline)
+    filterByHeadline(member.headline, keywords)
   );
 
   console.log(`Found ${trashCons.length}`);
@@ -92,18 +88,9 @@ const filterRemove = async () => {
   console.log(`Removed ${trashCons.length}`);
 };
 
-const filterByHeadline = (headline) => {
+const filterByHeadline = (headline, keywords) => {
   if (!headline) return false;
-  return [
-    "epam",
-    "itransition",
-    "issoft",
-    "innowise",
-    "hr",
-    "junior",
-    "looking",
-    "rekruter",
-  ].some((company) => headline.toLowerCase().includes(company));
+  return keywords.some((company) => headline.toLowerCase().includes(company));
 };
 
 const promptRemove = async () => {
@@ -187,7 +174,8 @@ const promptNameRemove = async () => {
   }
 };
 
-promptRemove();
-// filterRemove();
-// promptNameRemove();
-// 
+module.exports = {
+  promptRemove,
+  filterRemove,
+  promptNameRemove,
+};

@@ -1,5 +1,3 @@
-// https://www.linkedin.com/voyager/api/search/dash/clusters?decorationId=com.linkedin.voyager.dash.deco.search.SearchClusterCollection-174&origin=FACETED_SEARCH&q=all&query=(keywords:recruiter,flagshipSearchIntent:SEARCH_SRP,queryParameters:(network:List(S),resultType:List(PEOPLE)),includeFiltersInResponse:false)&start=10
-
 const axios = require("axios");
 const prompt = require("prompt");
 const reqHeaders = require("../req-headers.json");
