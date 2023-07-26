@@ -9,7 +9,7 @@ const page = Number(pageFromArgs);
 
 const COUNT = 30;
 const KEYWORDS = 'talent acquisition';
-const blankMessage = `Hi [firstName]!`;
+const blankMessage = `Hi {firstName}!`;
 
 autoAdd({
   count: COUNT,
